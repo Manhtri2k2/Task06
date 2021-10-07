@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e3b7d6ec-144a-49fb-8c5f-2203575fe23b"
-    Publisher="CN=manht"
+    Name="9fe074bd-3ef3-46bf-a373-18453f8eef6d"
+    Publisher="CN=Bob"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e3b7d6ec-144a-49fb-8c5f-2203575fe23b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="9fe074bd-3ef3-46bf-a373-18453f8eef6d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>U41</DisplayName>
-    <PublisherDisplayName>manht</PublisherDisplayName>
+    <DisplayName>UserControlDataTemplate</DisplayName>
+    <PublisherDisplayName>Bob</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="U41.App">
+      EntryPoint="UserControlDataTemplate.App">
       <uap:VisualElements
-        DisplayName="U41"
+        DisplayName="UserControlDataTemplate"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="U41"
+        Description="UserControlDataTemplate"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
